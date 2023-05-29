@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel = "stylesheet" href = "websiteCSS.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: black;">
+
+
+    <div class="section1">
+
+        <!-- Nav tabs -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">INSTANT TV</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="booking.html">Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutt">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footerr">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="booking.html"><img src="./images/cart.png"></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Lead page -->
+        <div class="mother">
+            <div class="lead-page position-relative text-center align-items-center">
+                <div class="wrapper position-absolute top-50 start-50 translate-middle">
+                    <h1 class="py-1" style="font-size: 4rem"></h1>
+                    <h2 class="py-5"></h2>
+                    <a href="booking.html" class="btn btn-primary" >Get Started</a>
+                </div>
+            </div>
+
+
+            <!-- Info band -->
+
+            <div class="containerAlpha">
+                <div class="row">
+                    <div class="col-3">
+                        <h2 class="infoHeading">+4000</h2>
+                        <p class="infoP">Live TV channels</p>
+                    </div>
+                    <div class="col-3">
+                        <h2 class="infoHeading">+6000</h2>
+                        <p class="infoP">Movies and Series</p>
+                    </div>
+                    <div class="col-3">
+                        <h2 class="infoHeading">24/7</h2>
+                        <p class="infoP">Support</p>
+                    </div>
+                    <div class="col-3">
+                        <h2 class="infoHeading">Free</h2>
+                        <p class="infoP">Installation</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- about page -->
+            <div id="aboutt" class="about row m-0">
+                <div class="left col-7 white text-center align-items-center">
+                    <h1 class="h1-main" style="margin-top:200px; font-size: 4rem;">ABOUT US</h1>
+                    <br>
+                    <p class="bigtext factcolor inline">We provide TV service with over 10,000 live channels, films and shows. <br> The service is available on all devices (laptop, phone and smart TV). We operate in the region of Ottawa/Gatineau.</p>
+                    <br>
+                    <p class="bigtext factcolor inline">Proudly serving Ottawa’s community since </p>
+                    <p class="bigtext numfactcolor inline"> 2017.</p>
+                </div>
+                <div class="RetroBike right col-5 blue">
+                </div>
+
+            </div>
+
+             <!-- Footer -->
+             <div id="footerr" class="footer-container">
+                <div class="footer">
+                    <div class="footer-heading footer-1">
+                        <h2 style="color:rgb(255, 255, 255)">Quick Links</h2>
+                        <a style="font-size: 120%;" href="index.html">Main Page</a>
+                        <a style="font-size: 120%;" href="booking.html">Book an Appointment</a>
+                    </div>
+                    <div class="footer-heading footer-2">
+                        <h2 style="color:rgb(255, 255, 255)">Customer Support</h2>
+                        <a style="font-size: 120%;" class = "email" onclick="myFunction3()">Our number</a>
+                      <p style="font-size: 120%;"> +1(888) 888-8888</p>
+                      <a style="font-size: 120%;" class = "email" onclick="myFunction2()">Our Email</a>
+                      <p style="font-size: 120%;"> subscription@instanttv.com</p>
+                    </div>
+                    <div class="footer-heading footer-3">
+                        <h2 style="color:#ffffff">Address & Hours of operation</h2>
+              
+                        <p style="font-size: 120%;"> 75 Laurier Ave. E, Ottawa, ON K1N 6N5</p>
+  
+                        <p style="font-size: 120%;"> Monday - Saturday: 10 am to 6pm <br>
+                                Sunday:
+                                Closed
+                            </p>
+                    </div>
+                    <div class="footer-email-form">
+                        <h2 style="color:#ffffff">Join Our Newsletter</h2>
+                        <input type="email" placeholder="Enter your email address" id="footer-email">
+                        <input onclick="document.location.reload(true)" type="submit" value="Sign Up" id="footer-email-btn">
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>
+                        All rights reserved to INSTANT TV © - 2023
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+  </html>

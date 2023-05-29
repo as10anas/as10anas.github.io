@@ -1,0 +1,439 @@
+.lead-page {
+  background: linear-gradient(to right,#474f7d, rgba(27, 31, 52, 0.0)), url("/images/tv2.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.section1{
+  background-color: #ffffffb9;
+  /* padding-bottom: 100px; */
+} 
+
+.mother {
+  background-color: #ffffffb9;
+}
+
+.lead-page2 {
+    height: 50vh;
+    background-color: #ffffffb9; 
+    padding-bottom: 500px;
+    
+}
+/* about section */
+.about {
+    height: auto;
+    /* background-color: #1c2631; */
+    background-image: linear-gradient(to right, #2937cdb0 ,#000000);
+    color: #b2b2b9;
+}
+
+.RetroBike{
+  background-image: url("./images/tv.jpg");
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+/* info section */
+
+/* text in about page */
+.mt-xl{margin-top: 50px}
+.factcolor{
+    color: #ffffff; font-weight: 200;
+}
+.numfactcolor{
+    color: #a8b5ca;
+}
+.inline{
+    display: inline;
+}
+.bigtext{
+    font-size: 30px;
+}
+.left {
+    padding-bottom: 10%;
+}
+
+/* booking page - tuneup */
+#Tune-up-Road{
+    display: none;
+    background-color: #ffffffb9;
+    padding-bottom: 30px;
+}
+#Tune-up-ebike{
+    display: none;
+    background-color: #ffffffb9;
+    padding-bottom: 30px;
+}
+#Tune-up-mtb{
+    display: none;
+    background-color: #ffffffb9;
+    padding-bottom: 30px;
+}
+
+/* pricing for services */
+.subscription_method {
+    width: 100%;
+    margin-top: 3.75rem;
+    margin-bottom: 2.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+  }
+  
+  .column {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 280px;
+    border-radius: 8px;
+    background-color: rgba(19, 224, 243, 0.229);
+    transition: 0.3s all ease;
+    padding: 2rem;
+    color:rgb(0, 0, 0);
+    font-size: 140%;
+    
+  }
+
+
+  
+  .column.Luxe {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 280px;
+    border-radius: 8px; 
+    background-color: rgba(19, 224, 243, 0.229);
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+  }
+  
+  
+  
+  .column.nice {
+    margin-top: -1.5rem;
+    padding-top: 3rem;
+    margin-bottom: -1.5rem;
+    padding-bottom: 2.5rem;
+    position: relative;
+    background-color: #25559cad;
+    color:  rgb(3, 5, 1);
+  }
+
+  .column:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 31px rgb(0, 179, 255);
+    margin-top: -1rem;
+    padding-top: 2rem;
+    margin-bottom: -1rem;
+    padding-bottom: 2rem;
+    position: relative;
+    
+    }
+ 
+   .column.Luxe:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 31px rgb(0, 179, 255) ;
+    margin-top: -1rem;
+    padding-top: 2rem;
+    margin-bottom: -1rem;
+    padding-bottom: 2rem;
+    position: relative;
+  }
+  .column.nice:hover{
+    transform: scale(1.1);
+    box-shadow : 0 8px 31px rgb(0, 179, 255);
+  }
+  
+  .column:first-child {
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
+  }
+  
+  .column:last-child {
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+  }
+  
+  .price_h {
+    align-items: center;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .price {
+    font-size: 2.5rem;
+    display: flex;
+  }
+  
+  .dollar {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-right: .25rem;
+  }
+  
+  .monthly {
+    margin-bottom: 1.1rem;
+    text-transform: uppercase;
+    font-size: .90rem;
+    align-self: flex-end;
+    
+  }
+  
+  .name {
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .divider {
+    background-color: rgba(0, 0, 0, .2);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 1px;
+    width: 100%;
+    
+  }
+  
+  .column.nice .divider {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+  }
+  
+  .feature img {
+    height: 1.1em;
+    width: 1.1em;
+    margin-right: .5rem;
+  }
+  
+  .feature.no {
+    color: rgb(92, 89, 89);
+    text-decoration-line: line-through;
+  }
+  
+  .Recommended {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+    position: absolute;
+    top: .6rem;
+    left: .6rem;
+    right: .6rem;
+    
+  }
+  
+
+  .cta {
+    cursor: pointer;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 4rem;
+    transition: 100ms;
+    transform: scale(1);
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: .60rem 1rem;
+    
+  }
+  
+  
+  .email {
+    cursor: pointer;
+  }
+ .column.nice .cta {
+    background-color:black;
+    color: white;
+  }
+  .column.Luxe .cta {
+    background-color:black;
+    color: white;
+  }
+  
+  .cta:hover, .cta:focus {
+    transform: scale(1.2);
+  }
+
+  /* choose device */
+.Device{
+    display: none;
+    background-color: #ffffffb9;
+    padding-bottom: 20px;
+}
+
+  /* choose expert */
+  .Expert{
+    display: none;
+    background-color: #ffffffb9;
+    padding-bottom: 20px;
+}
+
+/* Calendar */
+.Calendar{
+    display: none;
+    background-color: #ffffffb9;
+    padding-bottom: 20px;
+}
+.days{
+    margin-top: 0rem;
+}
+.confirmReject{
+   font-size: 140%;
+   display: none;
+}
+.list-group-item{
+    width: 50%;
+    font-size: 150%;
+}
+#confirm{
+    background-color: green;
+    color: white;
+    padding: 15px 32px;
+}
+#reject{
+    background-color: red;
+    color: white;
+    padding: 15px 32px;
+}
+
+/* information */
+.information{
+    display: none;
+    background-color: #ffffffb9;
+    padding-bottom: 20px;
+}
+#bookApp{
+    background-color: rgb(68, 88, 241);
+    color: white;
+    padding: 15px 32px;
+}
+
+
+/*FOOTER */
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-container{
+  background-color:#212529;
+  padding:4rem 0 2rem 0;
+}
+.footer{
+  width:80%;
+  background-color:#212529;
+  color:white;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:0 auto;
+}
+.footer-heading{
+  display:flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+.footer-heading h2{
+  margin-bottom: 2rem;
+}
+.footer-heading a{
+  color:white;
+  text-decoration: none;
+  margin-bottom:0.5rem;
+}
+.footer-heading a:hover{
+  color:#9bc8ff;
+  transition: 0.3s ease-out;
+}
+.footer-email-form h2{
+  margin-bottom: 2rem;
+}
+#footer-email {
+  width:250px;
+  height:40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 110%;
+  margin-bottom:1rem;
+}
+#footer-email::placeholder{
+  color:#999999;
+}
+#footer-email-btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color:rgb(68, 88, 241);
+  outline: none;
+  border: none;
+  color:#fff;
+  font-size: 110%;
+}
+#footer-email-btn:hover{
+  cursor: pointer;
+  background-color: #3c7fe3;
+  transition: all 0.4s ease-out;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto 0 auto;
+  padding-top: 1.5rem;
+  border-top: grey 1px solid;
+  width: 80%;
+  color: white;
+  font-family: 'lato',sans-serif;
+}
+
+
+  .containerAlpha{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .infoP{
+    font-weight: 700;
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .infoHeading{
+    font-weight: 700;
+    color: #0a609d;
+    font-size: 300%;
+    text-align: center;
+  }
+
+
+  .showCalendar, .showExpert, #mtb, #ebikebtn, #roadBike{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color:#2f3641;
+    outline: none;
+    border: none;
+    color:#fff;
+    font-size: 110%;
+  }
+  .showCalendar:hover, .showExpert:hover, #mtb:hover, #ebikebtn:hover, #roadBike:hover{
+    cursor: pointer;
+    background-color: #336abb;
+    transition: all 0.2s ease-out;
+  }
