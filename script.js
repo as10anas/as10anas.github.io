@@ -1,24 +1,24 @@
-// this is to show hide divs depending on which type of bike was chosen
+// this is to show hide divs depending on which type of quality was chosen
 
 $(document).ready(function(){
-    $("#roadBike").click(function(){
-        $("#Tune-up-Road").show();
-        $("#Tune-up-ebike").hide();
-        $("#Tune-up-mtb").hide();
+    $("#firstquality").click(function(){
+        $("#subscription_hd").show();
+        $("#subscription_fhd").hide();
+        $("#subscription_kkkk").hide();
     });
 })
 $(document).ready(function(){
-    $("#ebikebtn").click(function(){
-        $("#Tune-up-ebike").show();
-        $("#Tune-up-Road").hide();
-        $("#Tune-up-mtb").hide();
+    $("#secondquality").click(function(){
+        $("#subscription_fhd").show();
+        $("#subscription_hd").hide();
+        $("#subscription_kkkk").hide();
     });
 })
 $(document).ready(function(){
     $("#mtb").click(function(){
-        $("#Tune-up-mtb").show();
-        $("#Tune-up-ebike").hide();
-        $("#Tune-up-Road").hide();
+        $("#subscription_kkkk").show();
+        $("#subscription_fhd").hide();
+        $("#subscription_hd").hide();
     });
 })
 

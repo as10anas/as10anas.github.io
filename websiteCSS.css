@@ -28,7 +28,7 @@
     color: #b2b2b9;
 }
 
-.RetroBike{
+.Aboutuspic{
   background-image: url("./images/tv.jpg");
   height: auto;
   background-position: center;
@@ -56,17 +56,17 @@
 }
 
 /* booking page - tuneup */
-#Tune-up-Road{
+#subscription_hd{
     display: none;
     background-color: #ffffffb9;
     padding-bottom: 30px;
 }
-#Tune-up-ebike{
+#subscription_fhd{
     display: none;
     background-color: #ffffffb9;
     padding-bottom: 30px;
 }
-#Tune-up-mtb{
+#subscription_kkkk{
     display: none;
     background-color: #ffffffb9;
     padding-bottom: 30px;
@@ -422,7 +422,7 @@
   }
 
 
-  .showCalendar, .showExpert, #mtb, #ebikebtn, #roadBike{
+  .showCalendar, .showExpert, #mtb, #secondquality, #firstquality{
     width: 100px;
     height: 40px;
     border-radius: 4px;
@@ -432,7 +432,7 @@
     color:#fff;
     font-size: 110%;
   }
-  .showCalendar:hover, .showExpert:hover, #mtb:hover, #ebikebtn:hover, #roadBike:hover{
+  .showCalendar:hover, .showExpert:hover, #mtb:hover, #secondquality:hover, #firstquality:hover{
     cursor: pointer;
     background-color: #336abb;
     transition: all 0.2s ease-out;
