@@ -57,42 +57,42 @@ $(document).ready(function(){
 
 //getDate
 //basically what this does is: it looks for today date and then it adds the date by one for every one of the 6boxes that we have, so this way we end with the possibility to choose from the next 6days.
-//Day1
+//day1
 var today = new Date();
 var dd = String(today.getDate()+1).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 today = mm + '/' + dd + '/' + yyyy;
 document.getElementById("D1").innerHTML = today;
-//Day2
+//day2
 var today = new Date();
 var dd = String(today.getDate()+2).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 today = mm + '/' + dd + '/' + yyyy;
 document.getElementById("D2").innerHTML = today;
-//Day3
+//day3
 var today = new Date();
 var dd = String(today.getDate()+3).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 today = mm + '/' + dd + '/' + yyyy;
 document.getElementById("D3").innerHTML = today;
-//Day4
+//day4
 var today = new Date();
 var dd = String(today.getDate()+4).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 today = mm + '/' + dd + '/' + yyyy;
 document.getElementById("D4").innerHTML = today;
-//Day5
+//day5
 var today = new Date();
 var dd = String(today.getDate()+5).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 today = mm + '/' + dd + '/' + yyyy;
 document.getElementById("D5").innerHTML = today;
-//Day6
+//day6
 var today = new Date();
 var dd = String(today.getDate()+6).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
