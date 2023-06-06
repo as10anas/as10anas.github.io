@@ -290,12 +290,12 @@
     margin-top: 0rem;
 }
 .confirmReject{
-   font-size: 140%;
+   font-size: 125%;
    display: none;
 }
 .list-group-item{
     width: 50%;
-    font-size: 150%;
+    font-size: 125%;
 }
 #confirm{
     background-color: green;
