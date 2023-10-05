@@ -1,5 +1,5 @@
 # Analysis and Design of User Interfaces
-This website was developed using HTML, CSS, JavaScript and Bootstrap for a Software Engineering project.
+This website was developed using HTML, CSS, JavaScript and Bootstrap for a Software Engineering class project.
 
 ## Title: Instant TV
 
