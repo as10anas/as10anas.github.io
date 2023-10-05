@@ -1,4 +1,4 @@
-# SEG3125 - Analysis and Design of User Interfaces
+# Analysis and Design of User Interfaces
 This website was developed using HTML, CSS, JavaScript and Bootstrap for a Software Engineering project.
 
 ## Title: Instant TV
